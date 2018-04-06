@@ -9,6 +9,7 @@ Refer to the official data sheet for help
 # Notes
 
 - Does not support reading the busy flag and reading in general (yet)
+- Therefore wait is implemented by a for loop
 - Supports only the 4-bit mode i.e. with I2C backpack
 - Default to show cursor, blink cursor and backlight on
 - The user must substitute/include their own i2c.c functions. See i2c.h for prototypes
@@ -32,3 +33,26 @@ Refer to the official data sheet for help
             return 0; 
     }
 ```
+
+# Functions/Usage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
