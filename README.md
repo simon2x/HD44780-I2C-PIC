@@ -16,19 +16,19 @@ Refer to the official data sheet for help
 
 
 # Simple Example
-c```
+```
 
-int main(void) 
-{
-        i2c_master_init(500000);
-        lcd_init();
-                
-        lcd_cursor(0, 0);
-        lcd_print("Line 1: Test!");
-        
-        lcd_cursor(1, 0);
-        lcd_print("Line 2: Test!");
-        
-        return 0; 
-}
+    int main(void) 
+    {
+            i2c_master_init(500000);
+            lcd_init();
+                    
+            lcd_cursor(0, 0);
+            lcd_print("Line 1: Test!");
+            
+            lcd_cursor(1, 0);
+            lcd_print("Line 2: Test!");
+            
+            return 0; 
+    }
 ```
